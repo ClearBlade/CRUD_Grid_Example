@@ -1,0 +1,102 @@
+{
+    "addItemParser": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "e7901c69-6479-4493-a0c8-3486b31adb4c",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/addItemParser/outgoing_parser/index.js"
+        }
+    },
+    "allowAdd": true,
+    "allowDelete": true,
+    "allowExport": true,
+    "allowHighlight": true,
+    "allowImport": false,
+    "allowSearch": true,
+    "allowUpdate": true,
+    "deleteItemParser": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "e7901c69-6479-4493-a0c8-3486b31adb4c",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/deleteItemParser/outgoing_parser/index.js"
+        }
+    },
+    "enableSorting": true,
+    "evenStripeColor": "#ffffff",
+    "exportDataParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "return this.widget;"
+        },
+        "value": "./parsers/exportDataParser/outgoing_parser/index.js"
+    },
+    "fetchGridData": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "e7901c69-6479-4493-a0c8-3486b31adb4c",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/fetchGridData/outgoing_parser/index.js"
+        }
+    },
+    "gridData": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "e7901c69-6479-4493-a0c8-3486b31adb4c",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/gridData/incoming_parser/index.js"
+        }
+    },
+    "hidePaginationWhenNotNeeded": false,
+    "highlightColor": "#0D1E58",
+    "highlightItemParser": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "de4858ff-8e51-472c-9d97-fb37fdd68ace",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/highlightItemParser/outgoing_parser/index.js"
+        }
+    },
+    "highlightTextColor": "#fff",
+    "oddStripeColor": "#f5f5f5",
+    "pageSize": 25,
+    "searchPlaceholderText": "search",
+    "showSearchBar": true,
+    "textColor": "#000000",
+    "updateItemParser": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "e7901c69-6479-4493-a0c8-3486b31adb4c",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/updateItemParser/outgoing_parser/index.js"
+        }
+    }
+}
