@@ -1,0 +1,31 @@
+{
+    "asset_types": [
+        "Collections",
+        "Devices",
+        "Edges",
+        "Portals",
+        "Roles",
+        "Users"
+    ],
+    "author": {
+        "email": "cbynum@clearblade.com"
+    },
+    "clouds": [],
+    "description": "This system demonstrates how to connect a CRUD grid to a collection datasource in a portal",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/7mUuy3Y.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "portal"
+    ],
+    "license": "MIT",
+    "name": "CRUD_Grid_Example",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
