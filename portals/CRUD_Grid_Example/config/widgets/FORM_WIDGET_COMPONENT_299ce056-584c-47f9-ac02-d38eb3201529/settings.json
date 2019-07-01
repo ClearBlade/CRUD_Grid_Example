@@ -1,0 +1,60 @@
+{
+    "HAS_UNIQUE_STYLE": false,
+    "buttonColor": "#0D1E58",
+    "buttonGroupColor": "#0D1E58",
+    "cardBackgroundColor": "#f5f5f5",
+    "displayColumn": "test",
+    "editColumns": {
+        "num_test": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "key": "de7f867f-979b-44b1-b27e-4b84602628da",
+            "label": "Test Number",
+            "name": "num_test",
+            "orderIdx": 2
+        },
+        "test": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "key": "a88ce15d-8558-4408-8341-d712c201994b",
+            "label": "Test String",
+            "name": "test",
+            "orderIdx": 1
+        }
+    },
+    "eventTarget": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "return this.widget;"
+        },
+        "value": "./parsers/eventTarget/outgoing_parser/index.js"
+    },
+    "fontColor": "#000000",
+    "isReadOnly": false,
+    "listSource": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "de4858ff-8e51-472c-9d97-fb37fdd68ace",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/listSource/incoming_parser/index.js"
+        }
+    },
+    "noDataText": "No data",
+    "sliderColor": "#0D1E58",
+    "submitText": "Submit",
+    "successNotificationText": "Form Submitted!",
+    "titleColor": "#000000",
+    "toggleColor": "#0D1E58",
+    "typeaheadColor": "#0D1E58"
+}
