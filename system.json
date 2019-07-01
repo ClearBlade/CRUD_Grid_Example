@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "This system demonstrates how to connect a CRUD grid to a collection datasource in a portal",
+    "messaging_url": "iotright.clearblade.com:1883",
+    "name": "CRUD_Grid_Example",
+    "platform_url": "https://iotright.clearblade.com",
+    "system_key": "d0cfd1d10ba093a3a880c8849769",
+    "system_secret": ""
+}
