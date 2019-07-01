@@ -1,0 +1,11 @@
+{
+    "id": "e7901c69-6479-4493-a0c8-3486b31adb4c",
+    "name": "theCollection",
+    "settings": {
+        "CALL_ON_LOAD": true,
+        "SUPPRESS_DATASOURCE_ERRORS": false,
+        "collection_name": "CRUD_Grid_Example",
+        "refresh_interval": 0
+    },
+    "type": "CB_COLLECTION"
+}
